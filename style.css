@@ -1,0 +1,75 @@
+.body{
+    display: flex;
+    font-family: sans-serif;
+    background-color: #f7f7f7;
+    overflow: hidden;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  
+  .container{
+    margin-top: 7%;
+    width: 300px;
+    height: 500px;
+    border: 5px solid #ffadad;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #ffffff;
+    overflow-y: scroll;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .container::-webkit-scrollbar{
+    width: 0;
+  }
+  
+  #addNew{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffd6a5;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .fa-calendar-plus{
+    background-color: #ffadad;
+    padding: 3px;
+    border-radius: 3px;
+  }
+  
+  #tasks{
+    display: grid;
+    gap: 14px;
+  }
+  
+  #tasks div{
+    background-color: #fef0db;
+    border: 3px solid #ffd6a5;
+    padding: 10px;
+    border-radius: 6px;
+    display: grid;
+    gap: 5px;
+    overflow: auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .options{
+    justify-self: center;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .options i{
+    cursor: pointer;
+  }
+  
+  #msg{
+    color: #ff5252;
+    font-weight: bold;
+  }
+  
